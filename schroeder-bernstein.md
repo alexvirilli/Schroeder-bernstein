@@ -26,11 +26,7 @@ $A_{n+1} = h[A_{n}]$,
 $C_{0} = C$,   
 $C_{n+1} = h[C_{n}]$   
 
-Also, let us define the function $k: A \to C$ by   
-$$
-k(x) = 
-\begin{cases} 
-  h(x) &\text{if } x \in A_{n} \setminus C_{n} for some n \in \omega   
-  x &\text{otherwise }
-\end{cases}
-$$
+Also, let us define the function $k: A \to C$ by cases
+
+-If $x \in A_{n} \setminus C_{n}$ for some $n \in \omega$, $k(x) = h(x)$   
+-Otherwise, $k(x) = x$   
