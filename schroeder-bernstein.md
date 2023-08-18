@@ -30,3 +30,44 @@ Also, let us define the function $k: A \to C$ by cases
 
 -If $x \in A_{n} \setminus C_{n}$ for some $n \in \omega$, $k(x) = h(x)$   
 -Otherwise, $k(x) = x$   
+
+Now, we must show that $k: A \to C$ is a bijection.
+
+*Claim 1*
+
+$k: A \to C$ is an injection
+
+*Proof of Claim 1*
+
+Suppose $a \neq a' \in A.$  There are three cases to consider.   
+*Case 1*   
+Suppose there exist (not necessarily distinct) $n,m \in \omega$ such that $a \in A_{n} \setminus C_{n}$ and $a' \in A_{m} \setminus C_{m}$.  Then,   
+$k(a) = h(a) \neq h(a') = k(a')$, since $h$ is an injection    
+
+*Case 2*   
+Suppose $a, a' \notin A_{n} \setminus C_{n}$ for all $n \in \omega$   
+Then $k(a) = a \neq a' = k(a')$      
+
+*Case 3*   
+Suppose $a \in A_{n} \setminus C_{n}$ and $a' \notin A_{m} \setminus C_{m}$ for all $m$,   
+Then $k(a) = h(a) \in h[A_{n} \setminus C_{n}] = h[A_{n}] \setminus h[A_{n}] \setminus h[C_{n}]$ (by our lemma),
+and this is equivalent to $A_{n+1} \setminus C_{n+1}$   
+Since $a' \notin A_{n+1} \setminus C_{n+1}$, we obtain $k(a') = a' \neq h(a) = k(a)$   
+
+*Claim 2*   
+$k: A \to C$ is a surjection   
+
+*Proof of Claim 2*
+Let $c \in C$, then there are two cases to consider.   
+
+*Case 1*
+Suppose $c \notin A_{n} \setminus C_{n}$ for all $n \in \omega$.  Then $k(c) = c$   
+
+*Case 2*
+Suppose that $c \in A_{n} \setminus C_{n}$.  Since $c \notin A_{0} \setminus C_{0} = A \setminus C$, it follows that $n=m+1$ for some $m \in \omega$.   
+Thus, $c \in A_{m+1} \setminus C_{m+1}$   
+$\Rightarrow h[A_{m}] \setminus h[C_{m}]$   
+$\Rightarrow h[A_{m} \setminus C_{m}]$   
+Thus, there exists $a \in A_{m} \setminus C_{m}$ such that $k(a) = h(a) = c$
+
+Thus, our proof is concluded.
