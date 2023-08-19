@@ -13,7 +13,7 @@ $\Rightarrow \exists x \in C$ such that $f(a) = x$ and there is no $x \in C$ suc
 $\Rightarrow \exists x \in A \setminus C$ such that $f(a \setminus c) = x$   
 Hence, $x \in f[A \setminus C]$   
 
-**Proof**   
+**Proof of Theorem**   
 Since $A \preceq B$ and $B \preceq A$, there exist injections $f: A \to B$ and $g: B \to A$.   
 Define the function $C = g[B]$ This is the image of $B$ from the function $g$   
 Then clearly, we have that $B \sim C$, and it is enough to show that $A \sim C$   
