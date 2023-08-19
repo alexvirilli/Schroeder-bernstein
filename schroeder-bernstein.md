@@ -60,10 +60,10 @@ $k: A \to C$ is a surjection
 *Proof of Claim 2*
 Let $c \in C$, then there are two cases to consider.   
 
-*Case 1*
+*Case 1*   
 Suppose $c \notin A_{n} \setminus C_{n}$ for all $n \in \omega$.  Then $k(c) = c$   
 
-*Case 2*
+*Case 2*   
 Suppose that $c \in A_{n} \setminus C_{n}$.  Since $c \notin A_{0} \setminus C_{0} = A \setminus C$, it follows that $n=m+1$ for some $m \in \omega$.   
 Thus, $c \in A_{m+1} \setminus C_{m+1}$   
 $\Rightarrow h[A_{m}] \setminus h[C_{m}]$   
