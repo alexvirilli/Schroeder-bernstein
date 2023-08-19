@@ -57,7 +57,7 @@ Since $a' \notin A_{n+1} \setminus C_{n+1}$, we obtain $k(a') = a' \neq h(a) = k
 *Claim 2*   
 $k: A \to C$ is a surjection   
 
-*Proof of Claim 2*
+*Proof of Claim 2*   
 Let $c \in C$, then there are two cases to consider.   
 
 *Case 1*   
